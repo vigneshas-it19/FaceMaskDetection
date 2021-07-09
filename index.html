@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Mask Detection</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript" src="maskdetection.js"></script>
+</head>
+<body>
+    <center>
+    <h1>FACEMASK DETECTION</h1><br>
+    <button type="button" id="button" onclick="init()">Start</button><br>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
+    </center>
+    <br>
+    <div style="margin-left: 33.33%;">
+        <h3>With Mask</h3>
+        <div id="mProgress">
+            <div id="myBar1"></div>
+        </div><br>
+        <h3>Without Mask</h3>
+        <div id="wmProgress">
+            <div id="myBar2"></div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <p>By: VIGNESH A S<br>
+        <a href="mailto:vigneshas5697@gmil.com" style="color: wheat;">vigneshas5697@gmil.com</a>
+        </p>
+    </footer>
+</body>
+</html>

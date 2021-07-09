@@ -1,0 +1,30 @@
+  #mProgress,#wmProgress{
+    width: 50%;
+    background-color: #ddd;
+  }
+  
+  #myBar1 {
+    width: 0%;
+    height: 30px;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+  #myBar2 {
+    width: 0%;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+  footer {
+      align-self: center;
+      width: 32.95%;
+      margin-left: 33.33%;
+      text-align: center;
+      padding: 3px;
+      background-color: rgb(26, 48, 95);
+      color: white;
+  }
